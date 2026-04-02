@@ -1,0 +1,23 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#hotel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 90vh;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
