@@ -1,31 +1,34 @@
- html, body {
+html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background: transparent;
 }
 
-canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-}
-
+/* HOTELUL – imaginea de fundal */
 #hotel {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: auto;
+
+    /* hotelul ocupă TOT ecranul pe verticală */
+    height: 100vh;
+
+    /* păstrează proporțiile corecte */
+    width: auto;
+
     pointer-events: none;
     z-index: 0;
 }
 
+/* CANVAS – peste hotel */
 #game {
     position: absolute;
     top: 0;
     left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
     z-index: 10;
 }
