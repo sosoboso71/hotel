@@ -15,9 +15,17 @@ canvas {
 
 #hotel {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 90vh;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
     pointer-events: none;
+    z-index: 0;
+}
+
+#game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
